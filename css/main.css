@@ -7,6 +7,7 @@ html{
 }
 .maxWidth{
     max-width: 70.25em;
+    margin: auto;
 
 }
 .top_header{
@@ -18,7 +19,7 @@ html{
 .top_header_nav ul{
  list-style-type: none;
  padding: 0;
- box-sizing: border-box;
+ margin: 0;
 }
 .top_header_nav ul li a{
     color: white;
@@ -59,3 +60,19 @@ html{
         border-radius: 1em;
     }
 }
+.hero_banner{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 1em;
+}
+.herobanner_iconplay{
+    height: 5em;
+    width: 5em;
+    display: none;
+}
+
+.hero_banner_iconplay img{
+    width: 100%;
+
+}
+.
