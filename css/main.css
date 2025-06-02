@@ -65,7 +65,7 @@ html{
     text-align: center;
     padding: 1em;
 }
-.herobanner_iconplay{
+.hero_banner_iconplay{
     height: 5em;
     width: 5em;
     display: none;
@@ -74,5 +74,101 @@ html{
 .hero_banner_iconplay img{
     width: 100%;
 
+
 }
-.
+h1,h2,h3,h4{
+   font-family:"Oxygen"
+}
+.hero_banner_title{
+    color: var(--primary-color);
+    font-size: 1.5em;
+    margin: 1.5em 0;
+}
+.hero_banner_subtitle{
+    font-size: 1em;
+    color: color-mix(in srgb, var(--primary-color) , white);
+   line-height: 1.5;
+}
+.hero_banner_btn{
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #58c6c4;
+    border-radius: 1.5em;
+    text-decoration: none;
+    color: white;
+    
+}
+@media  screen and (min-width:48.25em)
+{
+    .hero_banner{
+        background-color: var(--primary-color);
+        color: white;
+    }
+
+    .hero_banner_iconplay{
+        display: block;
+        margin: auto;
+    }
+    .hero_banner_title,.hero_banner_subtitle{
+        color: white;
+    }
+}
+@media screen and (min-width:56.25em)
+{
+    .hero_banner{
+        background-image:url(/images/bg_topo_1198x670.jpg);
+        aspect-ratio: 1198/670;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .hero_banner .maxWidth{
+        margin: initial;
+        margin-bottom: 4em;
+        width: 75%;
+    }
+
+}
+@media screen and(min-width:74em){
+    .hero_banner{
+        background-image: url(/images/bg_topo_1600x1374.jpg);
+        aspect-ratio: 1198/670;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        max-height: 80vh;
+        width: 100%;
+        background-position: center top;
+        background-color: var(--primary-color);
+        background-repeat: no-repeat;
+    }
+    .hero_banner .maxWidth{
+        width: 50%;
+    }
+    .hero_banner_iconplay {
+       display: block;
+        width: 7em;
+        height: 7em;
+       
+    }
+
+}
+.hero_banner_subtitle, .hero_banner_title{
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.247);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.middle_content{
+    background-color: #f6f6f6;
+}
+.middle_content a{
+    color: inherit;
+    text-decoration: none;
+
+}
+
+    
